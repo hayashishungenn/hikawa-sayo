@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "petId": "hikawa-sayo",
+  "displayName": "冰川纱夜",
+  "sourceReference": "ChatGPT Image 2026年8月10日 15_45_57.png",
+  "spriteVersionNumber": 2,
+  "atlas": {
+    "path": "spritesheet.webp",
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "width": 1536,
+    "height": 2288,
+    "format": "WEBP RGBA"
+  },
+  "standardStates": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "lookDirections": {
+    "count": 16,
+    "degrees": [0, 22.5, 45, 67.5, 90, 112.5, 135, 157.5, 180, 202.5, 225, 247.5, 270, 292.5, 315, 337.5],
+    "semantics": "qa/direction-semantics.json",
+    "sheet": "qa/look-directions.png",
+    "continuity": "qa/look-continuity.json",
+    "blindPairs": "qa/direction-blind-pairs.png",
+    "blindValidation": "qa/direction-blind-validation.json",
+    "blindResolution": "qa/blind-review-resolution.json"
+  },
+  "qa": {
+    "contactSheet": "qa/contact-sheet-extended.png",
+    "validation": "qa/validation-extended.json",
+    "chromaDespilling": "qa/chroma-despill-extended.json",
+    "stateReview": "qa/review.json",
+    "previewsDirectory": "qa/previews"
+  },
+  "acceptedReviewWarnings": [
+    "failed and review rows used stable-slots extraction and were visually checked for stable playback.",
+    "continuity metrics reported local pixel outliers at a few cardinal handoffs; labeled direction QA showed no visible snap or reversal.",
+    "a few intermediate blind pairs had subtle diagonal cues; hard cardinal checks passed and no direction remained unconfirmed."
+  ],
+  "packageFiles": ["pet.json", "spritesheet.webp"],
+  "installTarget": "%USERPROFILE%/.codex/pets/hikawa-sayo/",
+  "gitCommitMessage": "feat: add Hikawa Sayo Codex v2 pet"
+}

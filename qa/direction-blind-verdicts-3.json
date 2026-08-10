@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-right","reason":"Face and nose profile point right."},
+    {"pair":"horizontal-2","A":"screen-right","B":"screen-right","reason":"Visible face and nose point right."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-right","reason":"Face landmarks point right."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-right","reason":"Clear side profiles point right."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-left","reason":"Lowered faces and noses point left."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-left","reason":"Face profiles point left."},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-left","reason":"Closed-eye face profiles point left."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A has lowered chin and closed eyes; B has raised chin."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A looks upward; B has lowered gaze and chin."},
+    {"pair":"vertical-3","A":"up","B":"down","reason":"A has lifted face; B has lowered face."},
+    {"pair":"vertical-4","A":"down","B":"up","reason":"A looks downward; B looks upward."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A has lowered head; B has raised head."},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A looks upward; B looks downward."},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A has lowered head; B has raised head."}
+  ]
+}

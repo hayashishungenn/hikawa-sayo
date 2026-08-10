@@ -1,0 +1,7 @@
+.codegraph
+.hatch-pet-run/
+run/
+decoded/
+prompts/
+generated_images/
+tmp/

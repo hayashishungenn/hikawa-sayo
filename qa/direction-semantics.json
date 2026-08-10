@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "policy": "Each of the 16 look directions must preserve the same character identity and move monotonically through the ordered look loop. Metric outliers are recorded as warnings when the labeled visual sheet confirms the intended direction.",
+  "directions": [
+    {
+      "direction": "000",
+      "degrees": 0,
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "reason": "Cardinal anchor: pupils, eye line, and chin are visibly raised while the feet remain anchored.",
+      "horizontal_evidence": "front-facing and neutral",
+      "vertical_evidence": "eyes and face point upward"
+    },
+    {
+      "direction": "022.5",
+      "degrees": 22.5,
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "The upward gaze leads and the head begins a small screen-right turn without changing scale.",
+      "horizontal_evidence": "slight screen-right turn",
+      "vertical_evidence": "gaze remains above the neutral line"
+    },
+    {
+      "direction": "045",
+      "degrees": 45,
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Diagonal intermediate retains the same eye/head lead and a stable lower-body anchor.",
+      "horizontal_evidence": "screen-right cheek and nose lead",
+      "vertical_evidence": "pupils remain above center"
+    },
+    {
+      "direction": "067.5",
+      "degrees": 67.5,
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "The transition approaches the right-facing cardinal without a side reversal or silhouette break.",
+      "horizontal_evidence": "rightward profile cue increases",
+      "vertical_evidence": "gaze is still slightly elevated"
+    },
+    {
+      "direction": "090",
+      "degrees": 90,
+      "verdict": "pass",
+      "expected": "screen-right",
+      "observed": "screen-right",
+      "reason": "Cardinal anchor: nose, pupils, face plane, and hair framing all point to screen-right.",
+      "horizontal_evidence": "clear right-facing side profile",
+      "vertical_evidence": "neutral vertical gaze"
+    },
+    {
+      "direction": "112.5",
+      "degrees": 112.5,
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Visual direction is correct; continuity metrics flagged the handoff from the right cardinal as a local outlier, so the transition is retained as a review warning.",
+      "horizontal_evidence": "right-facing profile is preserved",
+      "vertical_evidence": "pupils and chin begin moving downward"
+    },
+    {
+      "direction": "135",
+      "degrees": 135,
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "The diagonal gaze and lowered face follow the right-to-down arc monotonically.",
+      "horizontal_evidence": "screen-right side remains dominant",
+      "vertical_evidence": "eyes and chin point down-right"
+    },
+    {
+      "direction": "157.5",
+      "degrees": 157.5,
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "The pose approaches the down cardinal with no visible direction flip or character drift.",
+      "horizontal_evidence": "rightward cue is diminishing smoothly",
+      "vertical_evidence": "gaze is clearly lowered"
+    },
+    {
+      "direction": "180",
+      "degrees": 180,
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "reason": "Cardinal anchor: pupils and eyelids are lowered, the chin tucks, and the lower-body anchor is unchanged.",
+      "horizontal_evidence": "front-facing and neutral",
+      "vertical_evidence": "eyes, face, and chin point downward"
+    },
+    {
+      "direction": "202.5",
+      "degrees": 202.5,
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "The down gaze leads while the head begins a small screen-left turn.",
+      "horizontal_evidence": "slight screen-left turn",
+      "vertical_evidence": "gaze remains below the neutral line"
+    },
+    {
+      "direction": "225",
+      "degrees": 225,
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Diagonal intermediate preserves the uniform, ribbon, hair part, and anchored stance.",
+      "horizontal_evidence": "screen-left cheek and nose lead",
+      "vertical_evidence": "pupils remain below center"
+    },
+    {
+      "direction": "247.5",
+      "degrees": 247.5,
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Visual direction is correct; continuity metrics flagged the handoff into the left cardinal as a local outlier, so the transition is retained as a review warning.",
+      "horizontal_evidence": "left-facing profile cue increases",
+      "vertical_evidence": "pupils and chin remain lowered"
+    },
+    {
+      "direction": "270",
+      "degrees": 270,
+      "verdict": "pass",
+      "expected": "screen-left",
+      "observed": "screen-left",
+      "reason": "Cardinal anchor: nose, pupils, face plane, and hair framing all point to screen-left.",
+      "horizontal_evidence": "clear left-facing side profile",
+      "vertical_evidence": "neutral vertical gaze"
+    },
+    {
+      "direction": "292.5",
+      "degrees": 292.5,
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "The upward gaze leads and the head turns back toward the front through the screen-left quadrant.",
+      "horizontal_evidence": "left-facing profile is still dominant",
+      "vertical_evidence": "pupils begin rising above center"
+    },
+    {
+      "direction": "315",
+      "degrees": 315,
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "The diagonal pose is consistent with the left-to-up arc and does not backtrack.",
+      "horizontal_evidence": "screen-left cue softens toward front",
+      "vertical_evidence": "gaze is clearly elevated"
+    },
+    {
+      "direction": "337.5",
+      "degrees": 337.5,
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Visual direction is correct; the wrap metric flagged the final handoff back to 000, so this boundary remains an explicit review warning.",
+      "horizontal_evidence": "leftward cue is nearly neutral",
+      "vertical_evidence": "pupils remain elevated"
+    }
+  ],
+  "review": {
+    "labeled_sheet": "qa/look-directions.png",
+    "continuity_metrics": "qa/look-continuity.json",
+    "blind_validation": "qa/direction-blind-validation.json",
+    "conclusion": "All 16 directions have the intended semantic quadrant; no direction is marked fail. The three warnings are metric review notes at cardinal handoffs, not visible direction reversals."
+  }
+}

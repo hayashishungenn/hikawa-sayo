@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"Nose and face angle point right for A and left for B."},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"Visible facial profile and nose point left for A and right for B."},
+    {"pair":"horizontal-3","A":"screen-right","B":"screen-left","reason":"Eye, nose, and cheek contour turn right for A and left for B."},
+    {"pair":"horizontal-4","A":"screen-right","B":"screen-left","reason":"Clear side profiles show A facing right and B facing left."},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"Hair mass trails behind the left-facing A and right-facing B."},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"Lowered faces and noses angle left for A and right for B."},
+    {"pair":"horizontal-7","A":"screen-left","B":"screen-right","reason":"Head and facial contours angle left for A and right for B."},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"A has lowered chin and closed downward gaze; B has raised face and gaze."},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"A tilts face and eyes upward; B lowers face and gaze."},
+    {"pair":"vertical-3","A":"up","B":"down","reason":"A's nose and eyes angle upward; B's head angles downward."},
+    {"pair":"vertical-4","A":"up","B":"down","reason":"Side profiles clearly show A looking up and B looking down."},
+    {"pair":"vertical-5","A":"down","B":"up","reason":"A bows with downward closed eyes; B lifts face and gaze."},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"A's face is raised; B's chin and eyes are lowered."},
+    {"pair":"vertical-7","A":"down","B":"up","reason":"A angles head and gaze down; B angles them up."}
+  ]
+}

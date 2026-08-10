@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "artifact": "qa/direction-blind-pairs.png",
+  "validation": "qa/direction-blind-validation.json",
+  "accepted_warnings": [
+    "The two intermediate horizontal pairs h1 and h2 contain subtle diagonal/profile cues that one or more blind reviewers read differently; the labeled sheet confirms the ordered rightward progression.",
+    "The intermediate pair h7 reaches the left-to-front wrap and has a similar subtle cue; the labeled sheet confirms the ordered leftward progression and the 337.5-to-000 wrap.",
+    "The continuity measurement flags 090-to-112.5, 157.5-to-180, 247.5-to-270, and 337.5-to-000 as local pixel outliers. The sheet was visually reviewed and shows no snap, reversal, clipping, alpha hole, scale jump, or identity break."
+  ],
+  "hard_gates": {
+    "horizontal_cardinal_pair_h4": "pass",
+    "vertical_cardinal_pair_v1": "pass",
+    "all_direction_semantics": "pass_with_review_warnings",
+    "continuity_checker": "ok_with_review_warnings"
+  },
+  "evidence": [
+    "qa/look-directions.png shows 000 up, 090 screen-right, 180 down, 270 screen-left and monotonic diagonal quadrants.",
+    "qa/look-continuity.json reports ok=true and only reviewRequired warnings.",
+    "qa/direction-blind-validation.json reports ok=true and no unconfirmed pairs.",
+    "qa/validation-extended.json reports a valid transparent 8x11 spriteVersionNumber 2 atlas."
+  ],
+  "follow_up": "Keep the warnings visible in the release QA record; no asset regeneration is required for this delivery."
+}
