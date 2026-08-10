@@ -11,6 +11,12 @@
 
 角色唯一参考底稿是仓库中的 `ChatGPT Image 2026年8月10日 15_45_57.png`。旧底稿对应的运行目录没有被用于最终包；最终图集、QA 与安装包均来自新底稿版本 `hikawa-sayo-v2-154557`。
 
+## 官方设定对齐
+
+manifest 的描述采用 BanG Dream! 官方角色页对冰川纱夜的设定转述：她是认真冷静、对自己和他人都严格的 Roselia 吉他手，持续磨练自己的琴艺，并且在游戏与点心制作上也不妥协。[官方角色页](https://bang-dream.com/artist/roselia/hikawa-sayo/)
+
+Codex Pet 的编码伴侣行为只是承载角色动作的应用场景，不把“coding companion”写入角色设定描述，也不替官方设定增加新的身份关系。
+
 ## 视觉拆解
 
 新底稿的识别锚点被保留为跨状态不变量：
@@ -71,6 +77,7 @@
 ## 参考与适配边界
 
 - [OpenAI Hatch Pet skill](https://github.com/openai/skills/blob/main/skills/.curated/hatch-pet/SKILL.md)：v2 图集尺寸、行语义、透明图集、确定性 QA 与安装结构的协议来源。
+- [冰川纱夜官方角色页](https://bang-dream.com/artist/roselia/hikawa-sayo/)：性格、Roselia 吉他手身份以及对音乐、游戏和点心制作的严谨设定来源。
 - [Codex issue #20863](https://github.com/openai/codex/issues/20863)：动画状态由应用侧控制的实现背景；因此 manifest 只使用标准字段。
 - [Codex issue #20808](https://github.com/openai/codex/issues/20808)：社区反馈的缩放/重采样伪影关注点；本包针对小尺寸轮廓、透明边缘和暗背景做 QA。
 - [Minty Codex Pet](https://github.com/Somnusochi/minty-codex-pet)：社区 v2 图集和本地打包实现的交叉参考。
