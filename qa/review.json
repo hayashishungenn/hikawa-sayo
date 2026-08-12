@@ -14,8 +14,8 @@
   ],
   "errors": [],
   "warnings": [
-    "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped",
-    "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+    "failed used extraction method stable-slots; component extraction is preferred",
+    "review used extraction method stable-slots; component extraction is preferred"
   ],
   "rows": [
     {
@@ -546,7 +546,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+        "failed used extraction method stable-slots; component extraction is preferred"
       ],
       "frames": [
         {
@@ -881,7 +881,7 @@
       "ok": true,
       "errors": [],
       "warnings": [
-        "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+        "review used extraction method stable-slots; component extraction is preferred"
       ],
       "frames": [
         {

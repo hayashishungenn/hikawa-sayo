@@ -1,0 +1,46 @@
+{
+  "issue": "蓝紫色和紫灰色发梢边缘在部分视线方向下可见，来源是生成图的局部发色偏移，而不只是色键残留。",
+  "repair": {
+    "algorithm": "complete-look-row-visible-purple-recolor-v2",
+    "scope": "完整处理 look row 9 和 look row 10 的 8 个连续方向",
+    "processed_local_y": [0, 169],
+    "predicate": "可见紫色 HSV h 0.62..0.82、饱和度 >= 0.08，并在同格 6 像素内使用冰青发色作为参考",
+    "transparent_pixels": "excluded",
+    "transparent_rgb_normalization": true
+  },
+  "before": {
+    "row_9_visible_purple_pixels": 1528,
+    "row_10_visible_purple_pixels": 906
+  },
+  "after": {
+    "row_9_visible_purple_pixels": 1,
+    "row_10_visible_purple_pixels": 1,
+    "row_9_remaining": "1 个 alpha=2/255 的不可见孤立像素",
+    "row_10_remaining": "1 个深色轮廓候选，不在发丝可见边缘",
+    "transparent_rgb_residue_pixels": 0
+  },
+  "changed_pixels": 2432,
+  "invariants": {
+    "alpha_preserved": true,
+    "geometry_preserved": true,
+    "outside_selected_rows_changed_pixels": 0,
+    "transparent_rgb_normalized_pixels": 0
+  },
+  "independent_visual_review": {
+    "result": "PASS",
+    "checked": [
+      "look row 9 and row 10, all 16 directions",
+      "dark-background hair-edge visibility",
+      "icy-teal highlights",
+      "green eyes",
+      "red bow",
+      "brown uniform",
+      "shoes and uniform shadows",
+      "foot anchors and alpha holes"
+    ],
+    "result_summary": "row 10 无可见蓝紫/紫灰发梢；row 9 仅有 alpha=2 的不可见孤立像素，未见误伤。"
+  },
+  "source": "imagegen regenerated look row 10 plus the existing complete look row 9",
+  "alpha_preserved": true,
+  "geometry_preserved": true
+}
