@@ -2,7 +2,7 @@
 
 `冰川纱夜` · `氷川紗夜` · `ひかわ さよ` · `ひかわさよ` · `Hikawa Sayo` · `Sayo Hikawa` · `Roselia`
 
-这是一个个人本地使用的 Codex Pet v2。同人风格角色来自用户提供的新底稿，描述与角色定位参考《BanG Dream!》官方设定：纱夜是认真冷静、对己对人都严格的 Roselia 吉他手，持续磨练琴艺，在游戏与点心制作上也从不妥协。[官方角色页](https://bang-dream.com/artist/roselia/hikawa-sayo/)
+这是一个 Codex Pet v2。同人风格角色来自用户提供的新底稿，描述与角色定位参考《BanG Dream!》官方设定：纱夜是认真冷静、对己对人都严格的 Roselia 吉他手，持续磨练琴艺，在游戏与点心制作上也从不妥协。[官方角色页](https://bang-dream.com/artist/roselia/hikawa-sayo/)
 
 角色视觉保留冰青色长发、绿色眼睛、棕色制服、白色水手领与红色领结，并为 Codex 的标准工作状态制作了连续动作和 16 个视线方向。
 
@@ -37,4 +37,4 @@
 
 ## 版权与使用
 
-这是个人本地使用的同人风格资产，不发布到公共 Pet Gallery。仓库不包含商标、Logo、文字或第三方 UI 资产；如需公开分发，请先确认角色版权、底稿授权和平台发布要求。
+这是个人使用的同人风格资产，已按用户授权发布到 [Codex Pets Gallery](https://codex-pets.net/#/pets/hikawa-sayo)。仓库不包含商标、Logo、文字或第三方 UI 资产；如需进一步公开分发，请先确认角色版权、底稿授权和平台发布要求。
