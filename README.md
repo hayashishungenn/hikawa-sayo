@@ -15,6 +15,8 @@
 - 最终图集 SHA-256：`03ea7cc0b7ac8e80fdf6fc38d45d545ad369ad0c8411124f10bafc6805da24a0`。
 - 已复核 74 个使用单元格及 9 组 GIF 的全部 57 帧。原生 Codex 识别、激活与实时播放仍未验证。
 
+网站重绘版 ID 为 `hikawa-sayo-hair-remake`，旧条目保留；本仓库和本地安装仍使用 `hikawa-sayo`。
+
 当前图集与预览为重绘版。`qa/hair-remake-20261013/` 为本次证据，其他旧版 QA 记录保留作历史参考。
 
 ## 内容
@@ -48,4 +50,4 @@
 
 ## 版权与使用
 
-这是个人使用的同人风格资产，已按用户授权发布到 [Codex Pets Gallery](https://codex-pets.net/#/pets/hikawa-sayo)。仓库不包含商标、Logo、文字或第三方 UI 资产；如需进一步公开分发，请先确认角色版权、底稿授权和平台发布要求。
+这是个人使用的同人风格资产，已按用户授权发布到 [Codex Pets Gallery](https://codex-pets.net/#/pets/hikawa-sayo-hair-remake)。仓库不包含商标、Logo、文字或第三方 UI 资产；如需进一步公开分发，请先确认角色版权、底稿授权和平台发布要求。

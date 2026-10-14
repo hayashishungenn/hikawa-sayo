@@ -98,4 +98,4 @@ Codex Pet 的编码伴侣行为只是承载角色动作的应用场景，不把�
 
 ## 版权与使用说明
 
-这是个人使用的同人风格资产，已按用户授权发布到 [Codex Pets Gallery](https://codex-pets.net/#/pets/hikawa-sayo)。本包不带商标、Logo、文字或第三方 UI 资产；角色视觉根据用户提供的新底稿进行再设计。若要进一步公开分发，应另行确认角色版权、底稿授权和平台发布要求。
+这是个人使用的同人风格资产，已按用户授权发布到 [Codex Pets Gallery](https://codex-pets.net/#/pets/hikawa-sayo-hair-remake)。本包不带商标、Logo、文字或第三方 UI 资产；角色视觉根据用户提供的新底稿进行再设计。若要进一步公开分发，应另行确认角色版权、底稿授权和平台发布要求。
