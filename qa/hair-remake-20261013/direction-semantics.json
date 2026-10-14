@@ -1,0 +1,178 @@
+{
+  "review_type": "independent labeled final visual QA, not blind",
+  "verdict": "pass",
+  "directions": [
+    {
+      "degree": 0.0,
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "horizontal_evidence": "Face remains centered; nose and both eyes balanced left/right.",
+      "vertical_evidence": "Chin lifted, larger exposed lower face/neck, pupils raised toward upper eye region; crown recedes relative to face.",
+      "reason": "Face remains centered; nose and both eyes balanced left/right. Chin lifted, larger exposed lower face/neck, pupils raised toward upper eye region; crown recedes relative to face."
+    },
+    {
+      "degree": 22.5,
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "horizontal_evidence": "Face surface and pupils shift screen-right from centered up pose.",
+      "vertical_evidence": "Lifted chin and raised pupil/upper-eye presentation persists from up anchor.",
+      "reason": "Face surface and pupils shift screen-right from centered up pose. Lifted chin and raised pupil/upper-eye presentation persists from up anchor."
+    },
+    {
+      "degree": 45.0,
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "horizontal_evidence": "Nose and pupils lie screen-right of head center; left ear opens.",
+      "vertical_evidence": "Chin remains slightly lifted and eyes raised relative to right anchor.",
+      "reason": "Nose and pupils lie screen-right of head center; left ear opens. Chin remains slightly lifted and eyes raised relative to right anchor."
+    },
+    {
+      "degree": 67.5,
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "horizontal_evidence": "Nose and pupils remain screen-right; asymmetric face turn stronger than vertical cue.",
+      "vertical_evidence": "Slight chin lift and raised eye line relative to right anchor; small cue at native size.",
+      "reason": "Nose and pupils remain screen-right; asymmetric face turn stronger than vertical cue. Slight chin lift and raised eye line relative to right anchor; small cue at native size. Accepted: weaker vertical cue near horizontal cardinal; labeled native review and ordered neighbors support intended quadrant without reversal."
+    },
+    {
+      "degree": 90.0,
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "horizontal_evidence": "Nose tip lies screen-right of head center; facial surface and pupil gaze point screen-right, with left ear visible.",
+      "vertical_evidence": "Eye line and chin are approximately level versus up/down anchors.",
+      "reason": "Nose tip lies screen-right of head center; facial surface and pupil gaze point screen-right, with left ear visible. Eye line and chin are approximately level versus up/down anchors."
+    },
+    {
+      "degree": 112.5,
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "warning",
+      "horizontal_evidence": "Nose/pupils and facial surface remain screen-right.",
+      "vertical_evidence": "Eye line/head inclines slightly down relative to right anchor; subtle at native size.",
+      "reason": "Nose/pupils and facial surface remain screen-right. Eye line/head inclines slightly down relative to right anchor; subtle at native size. Accepted: weaker vertical cue near horizontal cardinal; labeled native review and ordered neighbors support intended quadrant without reversal."
+    },
+    {
+      "degree": 135.0,
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "horizontal_evidence": "Face/pupils remain screen-right as chin lowers.",
+      "vertical_evidence": "Lowered chin, descending eye line, increased crown coverage over face.",
+      "reason": "Face/pupils remain screen-right as chin lowers. Lowered chin, descending eye line, increased crown coverage over face."
+    },
+    {
+      "degree": 157.5,
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "horizontal_evidence": "Small screen-right facial offset remains while head approaches down anchor.",
+      "vertical_evidence": "Chin lowered and eyelids/eyes directed downward; near down anchor.",
+      "reason": "Small screen-right facial offset remains while head approaches down anchor. Chin lowered and eyelids/eyes directed downward; near down anchor."
+    },
+    {
+      "degree": 180.0,
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "horizontal_evidence": "Nose/eye pair is centered relative to crown; no horizontal turn.",
+      "vertical_evidence": "Chin tucked, lowered pupils/eye line, eyelids hooded and crown covers more face than neutral.",
+      "reason": "Nose/eye pair is centered relative to crown; no horizontal turn. Chin tucked, lowered pupils/eye line, eyelids hooded and crown covers more face than neutral."
+    },
+    {
+      "degree": 202.5,
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "horizontal_evidence": "Face/pupils begin shifting screen-left from down anchor.",
+      "vertical_evidence": "Chin remains tucked and eye line lowered from down anchor.",
+      "reason": "Face/pupils begin shifting screen-left from down anchor. Chin remains tucked and eye line lowered from down anchor."
+    },
+    {
+      "degree": 225.0,
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "horizontal_evidence": "Facial surface and pupils are screen-left of crown center.",
+      "vertical_evidence": "Chin/eye line remain lowered relative to left anchor.",
+      "reason": "Facial surface and pupils are screen-left of crown center. Chin/eye line remain lowered relative to left anchor."
+    },
+    {
+      "degree": 247.5,
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "warning",
+      "horizontal_evidence": "Nose and facial surface clearly shift screen-left.",
+      "vertical_evidence": "Small chin tuck/downward eye line relative to left anchor.",
+      "reason": "Nose and facial surface clearly shift screen-left. Small chin tuck/downward eye line relative to left anchor. Accepted: weaker vertical cue near horizontal cardinal; labeled native review and ordered neighbors support intended quadrant without reversal."
+    },
+    {
+      "degree": 270.0,
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "horizontal_evidence": "Nose tip is screen-left of head center; face surface and eyes point screen-left, with right ear exposed.",
+      "vertical_evidence": "Eye line approximately level; chin lacks clear up/down tuck.",
+      "reason": "Nose tip is screen-left of head center; face surface and eyes point screen-left, with right ear exposed. Eye line approximately level; chin lacks clear up/down tuck."
+    },
+    {
+      "degree": 292.5,
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "warning",
+      "horizontal_evidence": "Face surface and nose/pupils remain screen-left.",
+      "vertical_evidence": "Chin begins lifting relative to left anchor, eyes rise.",
+      "reason": "Face surface and nose/pupils remain screen-left. Chin begins lifting relative to left anchor, eyes rise. Accepted: weaker vertical cue near horizontal cardinal; labeled native review and ordered neighbors support intended quadrant without reversal."
+    },
+    {
+      "degree": 315.0,
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "horizontal_evidence": "Face and pupils remain screen-left while chin lifts.",
+      "vertical_evidence": "Lifted chin and raised eye line expose more lower face.",
+      "reason": "Face and pupils remain screen-left while chin lifts. Lifted chin and raised eye line expose more lower face."
+    },
+    {
+      "degree": 337.5,
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "horizontal_evidence": "Small screen-left facial offset remains as face returns toward centered up.",
+      "vertical_evidence": "Chin strongly lifted; eyes raised as pose returns toward up anchor.",
+      "reason": "Small screen-left facial offset remains as face returns toward centered up. Chin strongly lifted; eyes raised as pose returns toward up anchor."
+    }
+  ],
+  "continuity": {
+    "reviewed_all_adjacent_pairs": 16,
+    "includes_boundaries": [
+      "157.5 to 180",
+      "337.5 to 000"
+    ],
+    "verdict": "pass",
+    "reason": "Head/neck moves naturally while body remains upright; ordered face turn and chin lift/tuck has no wrong-quadrant pose or visible reversal. No conspicuous scale, registration or silhouette snap. Look-continuity.json has ok true, no warnings and no alphaHoles."
+  },
+  "limitations": [
+    "No blind report or answer key inspected. Native application activation unavailable and unverified. Ordered stills reviewed; no claim of native runtime gaze playback."
+  ]
+}

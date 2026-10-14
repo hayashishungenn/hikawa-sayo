@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "pet": "hikawa-sayo",
+  "spriteVersionNumber": 2,
+  "standard_frames": 57,
+  "look_directions": 16,
+  "neutral_cells": 1,
+  "installed_bytes_match_final": true,
+  "old_backup_sha256_match": true,
+  "unchanged_pets": [
+    "guilmon",
+    "gaomon",
+    "ayumu-uehara"
+  ],
+  "sha256": "03ea7cc0b7ac8e80fdf6fc38d45d545ad369ad0c8411124f10bafc6805da24a0",
+  "ui_verified": false,
+  "archive": "C:\\Users\\Hayas\\Documents\\Codex\\2026-10-10\\chu\\outputs\\sayo-hair-remake-20261013\\冰川纱夜-pet.zip",
+  "backup": "C:\\Users\\Hayas\\Documents\\Codex\\2026-10-10\\chu\\outputs\\sayo-hair-remake-20261013\\旧版备份\\hikawa-sayo"
+}

@@ -6,6 +6,17 @@
 
 角色视觉保留冰青色长发、绿色眼睛、棕色制服、白色水手领与红色领结，并为 Codex 的标准工作状态制作了连续动作和 16 个视线方向。
 
+## 2026-10 头发轮廓重绘版
+
+已用 imagegen 重绘全部标准动作组与视线，清理头发边缘的白色高光和透明缺口。保留原角色服装与动作顺序；左右跑步行经过二次轮廓修复。
+
+- [安装包](hikawa-sayo-pet.zip) · [待机预览](qa/previews/idle.gif) · [向右跑预览](qa/previews/running-right.gif)。
+- [本次 QA 摘要](qa/hair-remake-20261013/run-summary.json) · [逐格视觉复核](qa/hair-remake-20261013/final-visual-review.json)。
+- 最终图集 SHA-256：`03ea7cc0b7ac8e80fdf6fc38d45d545ad369ad0c8411124f10bafc6805da24a0`。
+- 已复核 74 个使用单元格及 9 组 GIF 的全部 57 帧。原生 Codex 识别、激活与实时播放仍未验证。
+
+当前图集与预览为重绘版。`qa/hair-remake-20261013/` 为本次证据，其他旧版 QA 记录保留作历史参考。
+
 ## 内容
 
 - 可安装的 `pet.json` 与 `spritesheet.webp`。

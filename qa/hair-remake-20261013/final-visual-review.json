@@ -1,0 +1,78 @@
+{
+  "verdict": "pass",
+  "coverage": {
+    "distinct_final_cells_visually_inspected": 74,
+    "standard_cells": 57,
+    "look_cells": 16,
+    "neutral_cells": 1,
+    "standard_counts": {
+      "idle": 6,
+      "running-right": 8,
+      "running-left": 8,
+      "waving": 4,
+      "jumping": 5,
+      "failed": 8,
+      "waiting": 6,
+      "running": 6,
+      "review": 6
+    },
+    "actual_preview_gifs_independently_decoded_and_visually_inspected": 9,
+    "actual_preview_gif_frames": 57,
+    "final_atlas_rows_on_native_light_and_dark_backgrounds": 9,
+    "labeled_look_sheet": true,
+    "final_look_cells_on_native_light_and_dark_backgrounds": 16,
+    "old_canonical_identity_compared": true,
+    "old_original_standard_rows_clothing_and_pose_compared": 9,
+    "adjacent_look_pairs": 16,
+    "review_round": "attempt02 targeted re-review",
+    "cumulative_distinct_final_cells_visually_inspected": 74,
+    "freshly_reinspected_changed_final_cells": 16,
+    "previously_visually_approved_byte_unchanged_cells": 58,
+    "preservation_evidence": "source-repair-cell-preservation.json: unchanged_non_target_cells true; unchanged_look_cells true; 58 unchanged and 16 changed",
+    "fresh_actual_preview_gifs_independently_decoded_and_visually_inspected": 2,
+    "fresh_actual_preview_gif_frames": 16,
+    "fresh_final_atlas_rows_on_native_light_and_dark_backgrounds": [
+      "running-right",
+      "running-left"
+    ]
+  },
+  "findings": [
+    {
+      "severity": "pass",
+      "scope": "running-right and running-left frames 0 through 7 each",
+      "issue": "Fresh authoritative final-atlas light/dark native-size review confirms previous solid white/ivory outer crown patches are gone. Hair is continuously teal through crown, front fringe and long back silhouette. No visible interior transparency hole, clipped hair/body or added detached effect. Face, green eyes, clothing, shoes, limb sequence and directional alternating gait retain the original poses.",
+      "evidence": "final-visual-diagnostic-attempt02/running-right-final-light-dark.png; running-left-final-light-dark.png; independently decoded actual two GIF rows"
+    },
+    {
+      "severity": "pass",
+      "scope": "58 other byte-unchanged cells: 41 standard cells, 16 look cells and neutral",
+      "issue": "Prior independent visual PASS retained because preservation report verifies exact unchanged RGBA pixels. No repeated fresh all58 claim."
+    },
+    {
+      "severity": "pass",
+      "scope": "identity and costume",
+      "issue": "Green eyes, long teal waves, side-swept bangs, beige blazer/pleated skirt, thin red neck strings, horizontal rectangular waist flaps, navy long socks and brown shoes retain original identity. Rectangular flaps and navy socks are intentional reference features."
+    },
+    {
+      "severity": "pass",
+      "scope": "chroma",
+      "issue": "Closed by chroma-despill-extended.json ok true and validation-extended.json ok true; perceived pink pixels are not a fail, retry or reclean criterion."
+    },
+    {
+      "severity": "pass",
+      "scope": "look semantics and continuity",
+      "issue": "All 16 labeled directions and both row/loop boundaries reviewed with head/neck movement. No wrong cardinal, wrong quadrant, reversal, clipping, interior hole or conspicuous size jump."
+    }
+  ],
+  "warnings": [
+    "067.5, 112.5, 247.5 and 292.5 have subtle vertical cues near horizontal cardinals. Accepted after labeled native and ordered-neighbor review; recorded separately in direction-semantics.json.",
+    "Jump amplitude/pose and nonlocomotion running sequence follow original rows and are not new regression.",
+    "Repaired rightward hair is a richer turquoise shade than the pale teal leftward row. It remains within the teal character palette and stable across all eight rightward frames; accepted minor palette variation, with identity and silhouette preserved."
+  ],
+  "limitations": [
+    "Native Codex pet recognition/activation and real-time animation playback remain unavailable and unverified.",
+    "Cumulative evidence covers all 74 distinct used cells: 16 repaired cells re-inspected fresh and 58 previously visually approved cells verified byte unchanged. Fresh actual GIF still-frame review covers both repaired rows, 16 frames; timing/cadence judged from ordered stills rather than native live playback.",
+    "No blind answer key or other blind review inspected. No source bitmap edited, installed, packaged or chroma-cleaned by this reviewer."
+  ],
+  "superseded_fail_report": "attempt-01-final-before-running-hair-repair/final-visual-review.json"
+}
