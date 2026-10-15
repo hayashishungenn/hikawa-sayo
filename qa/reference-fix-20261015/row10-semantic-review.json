@@ -1,0 +1,22 @@
+{
+  "reviewer": "sayo_standard_qa_new",
+  "source": "qa/look-directions-preclean.png",
+  "status": "pass_with_warnings",
+  "canProceedFinalClean": true,
+  "method": "Direct independent visual reading of all eight normal-size row10 cells plus their displayed head closeups, neutral and complete row9 for loop continuity. No transformations or image generation.",
+  "directions": [
+    {"angle":180,"verdict":"pass","horizontal":"Frontal face, balanced eyes without a dominant lateral turn.","vertical":"Strong bowed head, lower eyelids and downward pupils, chin near collar; correct down cardinal."},
+    {"angle":202.5,"verdict":"pass","horizontal":"Face turns a little screen left; face-right ear is more visible and nose/gaze lean left.","vertical":"Head remains bowed and eyes low, correct near-down left component."},
+    {"angle":225,"verdict":"warning","horizontal":"Leftward face/gaze and visible face-right ear preserve the correct quadrant.","vertical":"Downward gaze and lowered chin remain evident, but pose differs only slightly from 202.5; exact angular separation weak."},
+    {"angle":247.5,"verdict":"warning","horizontal":"Clear screen-left nose/profile and leftward gaze.","vertical":"Slightly lower head/gaze than 270 cardinal, but down component subtle at normal scale. No upward or rightward reversal observed."},
+    {"angle":270,"verdict":"pass","horizontal":"Unambiguous screen-left profile nose and gaze, opposite row9 right cardinal.","vertical":"Approximately level gaze, matching left cardinal requirement."},
+    {"angle":292.5,"verdict":"pass","horizontal":"Nose and face clearly point screen left, face-right ear exposed.","vertical":"Chin lifts and eye looks upper left; clear upward transition from left cardinal."},
+    {"angle":315,"verdict":"warning","horizontal":"Left-facing three-quarter/profile retained.","vertical":"Head and gaze stay elevated upper left, but similar to 292.5 and exact angular separation weak."},
+    {"angle":337.5,"verdict":"warning","horizontal":"Nearly frontal face has subtle left component in face/gaze; horizontal distinction from up anchor is small.","vertical":"Both eyes look upward with raised chin and exposed neck, clearly near-up. No clear rightward turn."}
+  ],
+  "continuity": "Row9 near-down-right joins frontal 180 down, then turns toward left and rises through upper left to near-up. 337.5 returns naturally to frontal 000 up. Cardinals remain correct; no explicit quadrant reversal. Some neighboring intermediate poses are visually similar, so the loop is semantically continuous but not a precise evenly spaced angular sweep.",
+  "integrity": "Consistent identity, complete hair/body silhouettes, stable skirt/knees/socks/shoes and feet baseline. No conspicuous crop, sudden scale change or character redesign in row10.",
+  "hardFailures": [],
+  "requiredRepairs": [],
+  "limitations": "Preclean color fringes deliberately excluded. Alpha edges and any cleanup damage require final light/dark background verification."
+}

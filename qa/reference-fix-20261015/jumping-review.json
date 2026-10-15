@@ -1,0 +1,101 @@
+{
+  "ok": true,
+  "frames_root": "C:\\Users\\Hayas\\Documents\\Codex\\2026-10-10\\chu\\work\\sayo-reference-20261015\\frames",
+  "states": [
+    "jumping"
+  ],
+  "errors": [],
+  "warnings": [
+    "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
+  "rows": [
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "C:\\Users\\Hayas\\Documents\\Codex\\2026-10-10\\chu\\work\\sayo-reference-20261015\\frames\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10810,
+          "bbox": [
+            44,
+            35,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 9
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\Hayas\\Documents\\Codex\\2026-10-10\\chu\\work\\sayo-reference-20261015\\frames\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11264,
+          "bbox": [
+            42,
+            12,
+            150,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 9
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\Hayas\\Documents\\Codex\\2026-10-10\\chu\\work\\sayo-reference-20261015\\frames\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10982,
+          "bbox": [
+            42,
+            5,
+            150,
+            174
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 10
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\Hayas\\Documents\\Codex\\2026-10-10\\chu\\work\\sayo-reference-20261015\\frames\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11353,
+          "bbox": [
+            42,
+            11,
+            150,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 14
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\Hayas\\Documents\\Codex\\2026-10-10\\chu\\work\\sayo-reference-20261015\\frames\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10844,
+          "bbox": [
+            44,
+            33,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 7
+        }
+      ]
+    }
+  ]
+}

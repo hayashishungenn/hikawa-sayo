@@ -1,0 +1,21 @@
+{
+  "reviewer": "sayo_standard_qa_new",
+  "source": "qa/look-row-9-registered.png",
+  "status": "pass_with_warnings",
+  "canStartRow10": true,
+  "method": "Independent direct visual reading of all eight registered cells at normal pet scale, compared with previously inspected canonical and cardinal anchors; no image transformations or generation.",
+  "directions": [
+    {"angle":0,"status":"pass","horizontal":"Frontal centered face with no dominant side turn.","vertical":"Raised chin and upper-directed pupils clearly read upward."},
+    {"angle":22.5,"status":"pass","horizontal":"Face and pupils lean slightly screen right while both eyes remain visible.","vertical":"Chin remains raised and eyes look toward upper right; modest horizontal offset from 0."},
+    {"angle":45,"status":"pass","horizontal":"Rightward three-quarter face, nose projects screen right and ear appears on face-left side.","vertical":"Gaze remains elevated toward upper right, chin lifted relative to right cardinal."},
+    {"angle":67.5,"status":"warning","horizontal":"Rightward three-quarter face matches correct quadrant.","vertical":"Gaze still has upward component, but pose is very similar to 45 degrees and exact angular separation is weak at normal size."},
+    {"angle":90,"status":"pass","horizontal":"Clear right-facing nose/profile and right-edge gaze, matching cardinal anchor.","vertical":"Approximately horizontal gaze; less upward pitch than 45/67.5."},
+    {"angle":112.5,"status":"pass","horizontal":"Rightward three-quarter/profile nose and eye remain toward screen right.","vertical":"Lowered chin and lowered eyelid/gaze clearly introduce down-right pitch."},
+    {"angle":135,"status":"pass","horizontal":"Face still turned mildly screen right, side ear visible; rightward component remains.","vertical":"More bowed head and lower-looking eyes than 112.5, correct down-right quadrant."},
+    {"angle":157.5,"status":"warning","horizontal":"Nearly frontal face retains a small rightward turn; right component is subtle.","vertical":"Deep downcast gaze and chin near collar approach down anchor; similar to 135, but progression toward frontal down remains readable."}
+  ],
+  "continuity": "Overall arc progresses upward through rightward profile to bowed near-frontal down. No reversal into left quadrant, obvious cardinal error, sudden scale jump, clipping or identity corruption. Skirt, knees, socks and shoes remain stable. Some neighboring angles use similar head poses, so precise 22.5-degree separation is approximate.",
+  "hardFailures": [],
+  "requiredRepairs": [],
+  "limitations": "Magenta edge remnants excluded before despill. No claim of mathematical gaze-angle accuracy; semantic quadrant and arc continuity are the evaluated criteria."
+}

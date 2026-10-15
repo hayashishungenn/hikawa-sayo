@@ -1,0 +1,23 @@
+{
+  "reviewer": "sayo_standard_qa_new",
+  "scope": "Independent visual reading of canonical-base.png, contact-sheet.png and every frame in all nine standard action sequence PNGs",
+  "status": "pass",
+  "framesVisuallyRead": 57,
+  "reference": "references/canonical-base.png",
+  "identity": "Consistent mint teal long wavy hair, green eyes, swept fringe, white collar and cuffs, thin red bow, tan double-breasted uniform and pleated skirt, visible knees above dark socks, brown loafers. Side views retain the approved identity.",
+  "rows": [
+    {"name":"idle","frames":6,"status":"pass","notes":"All six frames complete. Small breathing variation and half-close/full-close blink, stable scale and baseline."},
+    {"name":"running-right","frames":8,"status":"pass","notes":"All eight frames face screen right; hair trails left. Extended stride and tucked recovery poses form a readable running cycle. Some extended poses are similar, but limbs move and silhouette remains complete."},
+    {"name":"running-left","frames":8,"status":"pass","notes":"All eight frames face screen left; hair trails right. Extended and recovery leg positions alternate. Feet, hands and hair stay within their cells."},
+    {"name":"waving","frames":4,"status":"pass","notes":"Four complete front-view frames: arms down, raised open palm, changed palm angle, return. Same identity and scale."},
+    {"name":"jumping","frames":5,"status":"pass","notes":"Five complete frames show lowered preparation, rise, highest central pose with bent legs, descent and lowered landing. Apparent head baseline moves vertically as intended, without conspicuous horizontal drift."},
+    {"name":"failed","frames":8,"status":"pass","notes":"Eight complete frames move from neutral through lowered eyelids and bowed head to recovery. Downcast expression reads as disappointment. No prop or body deformation."},
+    {"name":"waiting","frames":6,"status":"pass","notes":"Six complete frames hold both open palms forward/up, change hands, small head tilt and mouth expression, then return. Reads as expectant waiting."},
+    {"name":"running","frames":6,"status":"pass","notes":"Six complete thinking frames: one hand at chin with opposite arm supporting, blink and slight head motion. Correct thinking semantics despite internal row label running."},
+    {"name":"review","frames":6,"status":"pass","notes":"Six complete frames perform a small head tilt and downward/blinking inspection, then return. No added objects or accessories. Distinct from chin-touch thinking row."}
+  ],
+  "integrity": "No obvious missing internal character regions, accidental transparent-looking cracks, clipped extremities, duplicated detached parts or abrupt proportional changes visible in the inspected sequences. Gray external gaps between limbs/hair read as natural negative space.",
+  "limitations": "Magenta/white edge speckles are present before final chroma cleanup and were explicitly excluded as a failure criterion. Alpha integrity and edge color must be rechecked after final cleanup; this visual pass does not claim pixel-level alpha validation or native-app playback.",
+  "requiredRepairRows": [],
+  "recommendations": ["Recheck all nine rows against light and dark backgrounds after despill/alpha cleanup."]
+}

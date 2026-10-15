@@ -1,0 +1,16 @@
+{
+  "reviewer": "sayo_standard_qa_new",
+  "source": "decoded/look-anchors-approved.png",
+  "status": "pass",
+  "reviewMethod": "Direct visual reading of all four extracted cells at their displayed normal pet scale; compared identity and lower-body proportions against canonical base inspected in standard review.",
+  "cardinals": [
+    {"angle":0,"label":"up","status":"pass","landmarks":"Face tipped upward, both pupils directed toward upper eye area, raised chin and longer exposed neck beneath jaw. Full frontal shoulders and stable feet."},
+    {"angle":90,"label":"right","status":"pass","landmarks":"Nose and face project toward screen right, visible ear on screen-left side of face, gaze at right edge; hair masses trail predominantly left. Direction readable from profile silhouette at normal scale."},
+    {"angle":180,"label":"down","status":"pass","landmarks":"Head bowed, eyelids/pupils lower, forehead and top of head dominate while chin approaches collar. Clearly distinct from upward anchor."},
+    {"angle":270,"label":"left","status":"pass","landmarks":"Nose and face project toward screen left, visible ear on screen-right side of face, gaze at left edge; hair masses trail predominantly right. Opposite profile to 90 degrees, readable at normal scale."}
+  ],
+  "identity": "All four retain teal wavy hair, green eyes, tan uniform, thin red bow, white collar/cuffs, dark knee socks and brown shoes.",
+  "lowerBody": "Skirt, exposed knees, sock lengths, shoe sizes and planted feet remain visually stable across anchors. No obvious lower-body rescale or clipping.",
+  "requiredRepairs": [],
+  "limitations": "Pre-despill magenta edge pixels excluded. This report verifies cardinal semantics visually, not alpha cleanup or interpolated look frames."
+}

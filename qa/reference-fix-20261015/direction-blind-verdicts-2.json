@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A鼻尖和嘴位于脸部中线偏左，左侧脸缘较近；B鼻尖与嘴偏右，瞳孔随脸向右偏。幅度较小但可辨。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A鼻尖突出在画面左侧，主要可见的眼睛朝左上，耳朵在右后侧；B鼻尖突出在右侧，眼睛朝右上，耳朵在左后侧。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A脸部前缘与鼻尖朝左，可见眼睛位于左侧前脸，右耳露出；B鼻尖朝右，左耳露出，瞳孔向右。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A侧脸鼻尖在左，耳朵位于右侧，瞳孔向左；B侧脸鼻尖在右，耳朵位于左侧，瞳孔向右。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A低头侧脸的鼻尖朝右，左耳露出且近侧瞳孔向右；B鼻尖朝左，右耳露出且近侧瞳孔向左。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A下垂脸部鼻尖和嘴向右偏，左耳更明显，眼睛朝右下；B鼻尖和嘴向左偏，右侧脸缘朝前，眼睛朝左下。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A虽近正面低头，鼻尖及下巴略偏右，左耳露出；B鼻尖及下巴略偏左，瞳孔也偏向左下。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A头顶面积大、眼睛被上眼睑压低，鼻嘴与下巴靠领口；B下巴抬起、脸部下方舒展，瞳孔朝上。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A低头使头顶占比增加，瞳孔向下且嘴靠近领口；B鼻尖抬起、下巴离领口更远，瞳孔朝上。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A鼻尖和视线指向右下，下巴收向衣领；B鼻尖和视线指向右上，下巴抬高、颈部显露。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A侧脸眼睛朝右下，鼻尖与下巴下收；B鼻尖上扬，瞳孔朝右上，下巴离衣领更远。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A眼睑下压、瞳孔朝左下，鼻嘴下收接近领口；B脸朝左上仰起，瞳孔上移，下巴抬高。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A鼻尖朝左下、瞳孔下移，下巴收低；B鼻尖朝左上，眼睛向上看，颈部与抬起下巴清晰。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A侧脸鼻尖略上扬、瞳孔向左上，颈部露出较多；B鼻尖和眼睛指向左下，下巴下收靠近领口。"
+    }
+  ]
+}

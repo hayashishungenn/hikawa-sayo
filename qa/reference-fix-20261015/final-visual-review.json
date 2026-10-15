@@ -1,0 +1,28 @@
+{
+  "visual_qa": "pass",
+  "ok": true,
+  "packagingGate": "pass",
+  "blindAggregateReview": {"file":"qa/direction-blind-validation.json","ok":true,"errors":[],"warnings":[],"unconfirmed":[],"reviewRequired":false,"note":"Read only after independent visual verdict and per-direction evidence were written; parent reports all three isolated reviewers individually passed."},
+  "reviewer": "independent-final-visual-qa-worker",
+  "reviewedAssets": ["references/canonical-base.png","qa/contact-sheet-extended.png","qa/look-directions.png","qa/idle-sequence.png","qa/running-right-sequence.png","qa/running-left-sequence.png","qa/waving-sequence.png","qa/jumping-sequence.png","qa/failed-sequence.png","qa/waiting-sequence.png","qa/running-sequence.png","qa/review-sequence.png"],
+  "actualVisualCoverage": {"standardAnimationFrames":57,"directionFrames":16,"additionalNeutralCells":1,"totalUsedAtlasCells":74,"method":"Every sequential PNG cell visually read at displayed pet size; final cleaned contact sheet and neutral-plus-direction sheet compared with canonical. Sequence PNGs are extracted from final cleaned atlas."},
+  "identity": {"verdict":"pass","evidence":"Mint/teal side-parted long wavy hair, green eyes, rounded chibi face, tan double-button uniform with white collar/cuffs, small red cord bow, pleated skirt, visible bare knees, dark knee socks and brown shoes persist throughout. Directional running uses appropriate profile face without replacing identity."},
+  "rows": [
+    {"state":"idle","framesRead":6,"verdict":"pass","evidence":"Quiet breathing and narrowing/closed/open blink progression; feet planted, no large gesture or prop."},
+    {"state":"running-right","framesRead":8,"verdict":"pass","evidence":"All face screen-right; extended and gathered leg phases alternate, arms counter-swing and hair trails screen-left; full body remains inside each cell."},
+    {"state":"running-left","framesRead":8,"verdict":"pass","evidence":"All face screen-left; wide and gathered strides alternate, arm positions change and hair trails screen-right; no reversed facing."},
+    {"state":"waving","framesRead":4,"verdict":"pass","evidence":"Hand rises and changes angle before returning to side, calm expression, no wave symbols or detached marks."},
+    {"state":"jumping","framesRead":5,"verdict":"pass","evidence":"Crouch, rise, highest tucked-leg pose, descent and grounded recovery. Vertical displacement is intentional, with no floor marks/shadows."},
+    {"state":"failed","framesRead":8,"verdict":"pass","evidence":"Head/eyelids lower into a subdued disappointed bow, then recover; remains distinct from normal idle by deeper downward pose."},
+    {"state":"waiting","framesRead":6,"verdict":"pass","evidence":"Open palms held forward, small expectant mouth and head tilt asking for input; distinct from hand-to-chin work pose."},
+    {"state":"running","framesRead":6,"verdict":"pass","evidence":"Hand-to-chin focused thinking with supporting arm and blink. Feet stay planted; no literal running or new prop."},
+    {"state":"review","framesRead":6,"verdict":"pass","evidence":"Focused head tilt/blink left and right; hands stay low, no added paper, magnifier or symbols."}
+  ],
+  "geometryAndArtifacts": {"verdict":"pass","evidence":"No blank used pose, cropped head/hair/shoes, cell overlap, visible interior transparent bands/cracks, detached effects or conspicuous unintended scale popping. Run strides and jump compression change silhouette naturally. Head-turn family keeps planted feet and consistent costume/body scale."},
+  "chromaGate": {"authority":"qa/chroma-despill-extended.json plus final/validation-extended.json", "deterministicValidationOk":true,"visualColorEdgeRetryRequested":false,"additionalCleanupRequested":false},
+  "directionReviewFile":"qa/direction-semantics.json",
+  "directionVerdicts":{"pass":11,"warning":5,"fail":0},
+  "warnings":["Secondary-axis cues are shallow at 022.5, 157.5, 202.5, 247.5 and 337.5; labeled ordered sequence supports their intended quadrant without reversal.","Continuity metric flags 000->022.5 local difference; visually it is a small head/hair change without a conspicuous snap."],
+  "repair_rows":[],
+  "remainingLimitations":["Sequential final-atlas PNG frames were visually read; GIF playback timing and actual Codex native-app recognition/playback were not exercised by this worker.","No claim of exact anatomical angle measurement or pixel-level exhaustive alpha inspection; visible interior continuity checked and deterministic alpha report reviewed."]
+}
